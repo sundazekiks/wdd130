@@ -2,6 +2,21 @@ main{
     max-width: 840px;
 }
 
+main img {
+    max-width: 50%;
+    height: auto;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
 aside {
     background-color: #f0f0f0;
     padding: 20px;
@@ -9,4 +24,8 @@ aside {
     margin-top: 20px;
     color: black;
     border: 1px solid black;
+    text-align: center;
 }
+
+
+
