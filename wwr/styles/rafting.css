@@ -66,6 +66,22 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia a > img {
+    width: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    gap: 150px;
+    background-color: var(--primary-color);
+}
+
 .hero {
     position: relative;
 }
