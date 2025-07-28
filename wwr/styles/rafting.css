@@ -19,6 +19,27 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    padding: 5px 25px 5px 25px;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    padding: 0;
+}
+
+header nav a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
 }
 
 body {
@@ -81,6 +102,42 @@ nav, p, section, article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+section {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+section .textholder {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+section .textholder p {
+    font-size: 15px;
+    padding-left: 15px;
+    text-align: justify;
+
+}
+
+section .textholder img {
+    width: 20%;
+    height: 24%;
+}
+
+section .imgholders {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.imgholders figure img {
+    box-sizing: border-box;
+    width: 150px;
 }
 
 
