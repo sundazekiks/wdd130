@@ -92,6 +92,14 @@ footer {
     height: auto;
 }
 
+article h5 {
+    padding: 50px;
+    border: 1px solid black;
+    text-align: left;
+    color: white;
+    font-size: larger;
+}
+
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -111,13 +119,10 @@ footer {
     background-color: rgba(105, 103, 103, 0.7);
 }
 
-.hero article p {
-    color: #fff;
-}
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 150px;
 }
 
 section {
