@@ -93,6 +93,7 @@ footer {
 .form-item {
     display: grid;
     align-items: center;
+    grid-gap: 20px;
 }
 
 .column1 {
@@ -106,4 +107,9 @@ footer {
 
 .column2 {
     grid-template-columns: 1fr 2fr;
+    grid-column: span 2;
+}
+
+textarea {
+    width: 250px;
 }
