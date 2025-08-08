@@ -542,6 +542,26 @@ form legend {
     gap: 10px;
 }
 
+.cta2 {
+    width: fit-content;
+    position: absolute;
+    top: 580px;
+    left: 380px;
+    border: none;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cta2 a {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px ;
+}
+
+.cta2:hover{
+    background-color: #0077B6;
+    color: white;
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
