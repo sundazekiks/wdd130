@@ -483,7 +483,7 @@ form legend {
 }
 
 
-.card:active {
+.card:active{
     height: fit-content;
     transition: all 3s ease-in;
 }
@@ -583,7 +583,7 @@ form legend {
     left: 580px;
 }
 
-footer {
+.foot {
     position: relative;
     z-index: 10;
     top: 600px;
