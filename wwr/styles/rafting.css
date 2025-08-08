@@ -485,6 +485,7 @@ form legend {
 
 .card:active {
     height: fit-content;
+    transition: all 3s ease-in;
 }
 
 .card > p{
@@ -508,7 +509,7 @@ form legend {
 }
 
 .level {
-    border: 1px solid black; 
+    border: none; 
     padding: 10px;   
 }
 
@@ -532,7 +533,7 @@ form legend {
 }
 
 .description {
-    border: 1px solid black;
+    border: none;
 }
 
 .description > p {
